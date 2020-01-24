@@ -26,13 +26,28 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+ReactJS is a front end JavaScript library and is used for building user interfaces for single page applications.
+ReactJS allows us to create reusable UI components.
+
 - [ ] What does it mean to _think_ in react?
+
+We divide the code into components that we can link together and create an interactive webpage. 
+Because the code is divided into multiple parts, we can prevent repetition of the code and modify each component more easily if needed.
 
 - [ ] Describe state.
 
+Sate is an object that determines how components render and behave. 
+It allows us to create components that are dynamic and interactive.
+
+
 - [ ] Describe props.
 
+Arguments that are passed into React components.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+Side effects are anything that affects something outside the scope of the function being executed.
+We sync effects in React by using useEffect(() => {
 
 ## Project Set Up
 
